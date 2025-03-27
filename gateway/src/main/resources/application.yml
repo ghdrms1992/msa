@@ -19,8 +19,3 @@ spring:
             uri: lb://event-service
             predicates:
               - Path=/event/**
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
