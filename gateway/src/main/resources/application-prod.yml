@@ -1,4 +1,4 @@
 eureka:
   client:
     service-url:
-      defaultZone: https://msa-eureka-prod.up.railway.app/eureka
+      defaultZone: https://prod-msa-eureka.up.railway.app/eureka
