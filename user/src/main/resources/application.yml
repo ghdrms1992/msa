@@ -4,7 +4,3 @@ server:
 spring:
   application:
     name: user-service
-
-eureka:
-  instance:
-    prefer-ip-address: true
