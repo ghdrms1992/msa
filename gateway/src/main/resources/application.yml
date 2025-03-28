@@ -19,3 +19,7 @@ spring:
             uri: lb://event-service
             predicates:
               - Path=/event/**
+
+eureka:
+  instance:
+    prefer-ip-address: true

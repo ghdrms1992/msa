@@ -4,3 +4,7 @@ server:
 spring:
   application:
     name: event-service
+
+eureka:
+  instance:
+    prefer-ip-address: true
